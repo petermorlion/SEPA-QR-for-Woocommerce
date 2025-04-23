@@ -275,6 +275,9 @@ function muxp_set_persistent($id, $qrcode) {
 	$qrcode_stripped = explode(',', $qrcode)[1];
 
 	global $wp_filesystem;
+	require_once ( ABSPATH . '/wp-admin/includes/file.php' );
+	WP_Filesystem();
+
 	$wp_filesystem->put_contents($target_dir . "/$id.png", base64_decode($qrcode_stripped));
 
 	return wp_upload_dir()['baseurl'] . "/SEPA-QR-for-Woocommerce/$id.png";

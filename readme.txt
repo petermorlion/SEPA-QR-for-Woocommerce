@@ -57,6 +57,10 @@ by your website with the QR code.
 
 == Changelog ==
 
+= 2.0.2 =
+
+* Fixed issue with WP file system not being initialized.
+
 = 2.0.1 =
 
 * Fixed issues found by Plugin Check
