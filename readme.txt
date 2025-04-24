@@ -32,7 +32,7 @@ encoded images.
 
 = Translation =
 
-Currently, English and Dutch are supported.
+Currently, English, Dutch, French and German are supported.
 
 == Frequently Asked Questions ==
 
