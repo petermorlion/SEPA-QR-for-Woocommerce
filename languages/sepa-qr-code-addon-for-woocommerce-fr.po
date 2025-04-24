@@ -1,0 +1,80 @@
+# Translation of Plugins - SEPA QR-Code for Woocommerce - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - SEPA QR-Code for Woocommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - SEPA QR-Code for Woocommerce - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-04-24 09:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#: muxp-sepaqr.php:331
+msgid "This will store the QR code as an image on your server instead of generating a transient base64 string. This has consequences for the GDPR compliance of your website and you should inform your customers as such."
+msgstr "Cela permettra de stocker le code QR en tant qu'image sur votre serveur au lieu de générer une chaîne base64 transitoire. Cela a des conséquences sur la conformité RGPD de votre site web et vous devriez en informer vos clients en conséquence."
+
+#: muxp-sepaqr.php:320
+msgid "Store QR code as image"
+msgstr "Enregistree le QR code sous forme d'image"
+
+#: muxp-sepaqr.php:318
+msgid "GDPR"
+msgstr "RGPD"
+
+#: muxp-sepaqr.php:308
+msgid "Save"
+msgstr "Enregistrer"
+
+#: muxp-sepaqr.php:292 muxp-sepaqr.php:298
+msgid "SEPA QR"
+msgstr "SEPA QR"
+
+#: muxp-sepaqr.php:211
+msgid "Order-ID:"
+msgstr "ID de commande :"
+
+#: muxp-sepaqr.php:139
+msgid "Generating uncached dummy QR for 11 Euro/OrderID 11"
+msgstr "Génération de QR factices non mis en cache pour 11 Euro/OrderID 11"
+
+#: muxp-sepaqr.php:139
+msgid "This is not a valid md5 hash"
+msgstr "Ce n'est pas un hachage md5 valide."
+
+#: muxp-sepaqr.php:106
+msgid "For a convenient payment scan this qr code! Some email clients unfortunately will not show Base64 encoded images. Sorry for that!"
+msgstr "Génération de QR factices non mis en cache pour 11 Euro/OrderID 11"
+
+#: muxp-sepaqr.php:72 muxp-sepaqr.php:108
+msgid "For a convenient payment scan this qr code!"
+msgstr "Pour un paiement facile, scanner ce code qr !"
+
+#. Author URI of the plugin
+#: muxp-sepaqr.php
+msgid "https://petermorlion.com"
+msgstr "https://petermorlion.com"
+
+#. Author of the plugin
+#: muxp-sepaqr.php
+msgid "Peter Morlion"
+msgstr "Peter Morlion"
+
+#. Description of the plugin
+#: muxp-sepaqr.php
+msgid "Free plugin that adds a SEPA-QR Code for bank transfer payments (bacs) in the WooCommerce emails and order confirmation screen."
+msgstr "Plugin gratuit qui ajoute un code SEPA-QR pour les paiements par virement bancaire (bacs) dans les emails et l'écran de confirmation de commande de WooCommerce."
+
+#. Plugin URI of the plugin
+#: muxp-sepaqr.php
+msgid "https://github.com/petermorlion/SEPA-QR-for-Woocommerce"
+msgstr "https://github.com/petermorlion/SEPA-QR-for-Woocommerce"
+
+#. Plugin Name of the plugin
+#: muxp-sepaqr.php
+msgid "SEPA-QR-Code for Woocommerce"
+msgstr "SEPA-QR-Code pour Woocommerce"
