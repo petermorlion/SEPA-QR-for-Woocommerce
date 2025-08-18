@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.4\n"
 "X-Loco-Version: 2.6.4; wp-6.3\n"
-"X-Domain: SEPA-QR-for-Woocommerce\n"
+"X-Domain: SEPA-QR-for-Woocommerce"
 
 #. Description of the plugin
 msgid "Free plugin that adds a SEPA-QR Code for bank transfer payments (bacs) in the WooCommerce emails and order confirmation screen."

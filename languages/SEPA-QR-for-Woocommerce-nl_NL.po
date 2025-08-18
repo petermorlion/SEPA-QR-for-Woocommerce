@@ -1,0 +1,71 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SEPA-QR-Code for Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-24 09:35+0000\n"
+"PO-Revision-Date: 2024-09-20 22:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Domain: SEPA-QR-for-Woocommerce"
+
+#. Description of the plugin
+msgid "Free plugin that adds a SEPA-QR Code for bank transfer payments (bacs) in the WooCommerce emails and order confirmation screen."
+msgstr "Een gratis plugin dat een SEPA-QR Code voor bankoverschrijving toevoegt aan de WooCommerce emails en het scherm voor de bevestiging van de bestelling."
+
+#: muxp-sepaqr.php:143
+msgid "For a convenient payment scan this qr code!"
+msgstr "Voor een eenvoudige betaling, scan deze QR code!"
+
+#: muxp-sepaqr.php:187
+msgid "For a convenient payment scan this qr code! Some email clients unfortunately will not show Base64 encoded images. Sorry for that!"
+msgstr "Voor een eenvoudige betaling, scan deze QR code! Sommige email programma's zullen Base64 geëncodeerde afbeeldingen niet tonen. Sorry hiervoor!"
+
+#: muxp-sepaqr.php:530
+msgid "GDPR"
+msgstr "GDPR"
+
+#: muxp-sepaqr.php:233
+msgid "Generating uncached dummy QR for 11 Euro/OrderID 11"
+msgstr "Dummy QR voor 11 euro en order 11 genereren"
+
+#. URI of the plugin
+#. Author of the plugin
+#. Author URI of the plugin
+msgid "https://github.com/petermorlion/SEPA-QR-for-Woocommerce"
+msgstr ""
+
+#: muxp-sepaqr.php:370
+msgid "Order-ID:"
+msgstr "Order-ID:"
+
+#: muxp-sepaqr.php:504
+msgid "SEPA QR"
+msgstr "SEPA QR"
+
+#. Name of the plugin
+msgid "SEPA-QR-Code for Woocommerce"
+msgstr "SEPA-QR-Code voor WooCommerce"
+
+#: muxp-sepaqr.php:532
+msgid "Store QR code as image"
+msgstr "QR code opslaan als afbeelding"
+
+#: muxp-sepaqr.php:233
+msgid "This is not a valid md5 hash"
+msgstr "Dit is geen geldige md5 hash"
+
+#: muxp-sepaqr.php:543
+msgid ""
+"This will store the QR code as an image on your server instead of generating a transient base64 string. This has consequences for the GDPR compliance of "
+"your website and you should inform your customers as such."
+msgstr ""
+"Dit zal de QR code als afbeelding opslaan op je server, in plaats van een Base64 geëncodeerde string te gebruiken in de email. Dit heeft gevolgen voor de "
+"GDPR compliance van je website waardoor je je klanten hierover moet informeren."
