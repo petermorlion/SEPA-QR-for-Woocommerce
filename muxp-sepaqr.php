@@ -323,6 +323,14 @@ function muxp_admin_init() {
 	add_settings_field('muxp_store_qr_code_as_image', __('Store QR code as image', 'SEPA-QR-for-Woocommerce'), 'muxp_store_qr_code_as_image_setting_html', 'muxp_settings', 'muxp_gdpr');
 }
 
+add_action( 'init', 'muxp_load_textdomain' );
+/**
+ * Load plugin textdomain.
+ */
+function muxp_load_textdomain() {
+  load_plugin_textdomain('SEPA-QR-for-Woocommerce',false, dirname(plugin_basename(__FILE__)) . '/languages');
+}
+
 function muxp_settings_callback() {
 }
 
