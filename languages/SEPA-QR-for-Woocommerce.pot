@@ -27,7 +27,7 @@ msgstr ""
 
 #: muxp-sepaqr.php:187
 msgid ""
-"For a convenient payment scan this qr code! Some email clients unfortunately will not show Base64 encoded images. Sorry for that!"
+"For a convenient payment scan this qr code! Some email clients unfortunately will not show Base64 encoded images."
 msgstr ""
 
 #: muxp-sepaqr.php:530

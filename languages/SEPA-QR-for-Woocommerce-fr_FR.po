@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - SEPA QR-Code for Woocommerce - Stable (latest release)\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-24 09:08+0200\n"
+"PO-Revision-Date: 2025-09-22 19:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: muxp-sepaqr.php:331
 msgid "This will store the QR code as an image on your server instead of generating a transient base64 string. This has consequences for the GDPR compliance of your website and you should inform your customers as such."
@@ -47,8 +47,8 @@ msgid "This is not a valid md5 hash"
 msgstr "Ce n'est pas un hachage md5 valide."
 
 #: muxp-sepaqr.php:106
-msgid "For a convenient payment scan this qr code! Some email clients unfortunately will not show Base64 encoded images. Sorry for that!"
-msgstr "Génération de QR factices non mis en cache pour 11 Euro/OrderID 11"
+msgid "Some email clients unfortunately will not show Base64 encoded images."
+msgstr "Certains clients de messagerie n'afficheront malheureusement pas les images codées en Base64."
 
 #: muxp-sepaqr.php:72 muxp-sepaqr.php:108
 msgid "For a convenient payment scan this qr code!"
