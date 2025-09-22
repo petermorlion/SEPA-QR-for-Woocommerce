@@ -3,7 +3,7 @@ Contributors: thedoctorcoernel
 Tags: woocommerce, payment, sepa, qr
 Requires at least: 4.7
 Tested up to: 6.6.2
-Stable tag: 2.1.2
+Stable tag: 2.2.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -56,6 +56,12 @@ by your website with the QR code.
 2. example how the qr-code is hooked into a pdf envoice
 
 == Changelog ==
+
+= 2.2.0 =
+
+* Fixed loading translations
+* Allow setting payment text
+* Allow setting QR code size
 
 = 2.1.2 =
 
