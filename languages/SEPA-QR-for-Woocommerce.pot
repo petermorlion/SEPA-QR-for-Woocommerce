@@ -70,3 +70,12 @@ msgid ""
 "a transient base64 string. This has consequences for the GDPR compliance of "
 "your website and you should inform your customers as such."
 msgstr ""
+
+msgid "Payment request text"
+msgstr ""
+
+msgid "Maximum width of the QR code (in pixels)"
+msgstr ""
+
+msgid "This will set the maximum width of the QR code in pixels. Default is 200."
+msgstr ""

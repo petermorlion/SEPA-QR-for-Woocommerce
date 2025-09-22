@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - SEPA QR-Code for Woocommerce - Stable (latest release)\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-09-22 19:48+0200\n"
+"PO-Revision-Date: 2025-09-22 19:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -78,3 +78,9 @@ msgstr ""
 #: muxp-sepaqr.php
 msgid "SEPA-QR-Code for Woocommerce"
 msgstr "SEPA-QR-Code für WooCommerce"
+
+msgid "Maximum width of the QR code (in pixels)"
+msgstr "Maximale Breite des QR-Codes (in Pixeln)"
+
+msgid "This will set the maximum width of the QR code in pixels. Default is 200."
+msgstr "Hiermit wird die maximale Breite des QR-Codes in Pixeln festgelegt. Der Standardwert ist 200."

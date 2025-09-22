@@ -63,7 +63,7 @@ function muxp_add_text_to_thankyoupage($order_id) {
 	if ( !empty($order->get_total()) && (float)$order->get_total() > 0 ) {
 		$payment_request_text = get_option('muxp_payment_request_text', __('For a convenient payment scan this qr code!', 'SEPA-QR-for-Woocommerce'));
 		echo '<p>' . esc_attr($payment_request_text) . '<br>';
-		echo '<img class="muxp-bacs-qrcode" src="' . esc_attr(muxp_get_qrcode($order->get_total(), $order->get_order_number())) . '" alt="qr-code"></p>';
+		echo '<img class="muxp-bacs-qrcode" src="' . esc_attr(muxp_get_qrcode($order->get_total(), $order->get_order_number())) . '" alt="qr-code" style="max-width: ' . esc_attr(get_option('muxp_qr_max_width', '200')) . 'px;"></p>';
 	} 
 }
 
@@ -317,6 +317,8 @@ function muxp_admin_init() {
 	add_settings_field('muxp_store_qr_code_as_image', __('Store QR code as image', 'SEPA-QR-for-Woocommerce'), 'muxp_store_qr_code_as_image_setting_html', 'muxp_settings', 'muxp_gdpr');
 	register_setting('muxp_settings', 'muxp_payment_request_text');
 	add_settings_field('muxp_payment_request_text', __('Payment request text', 'SEPA-QR-for-Woocommerce'), 'muxp_payment_request_text_setting_html', 'muxp_settings', 'muxp_gdpr');
+	register_setting('muxp_settings', 'muxp_qr_max_width');
+	add_settings_field('muxp_qr_max_width', __('Maximum width of the QR code (in pixels)', 'SEPA-QR-for-Woocommerce'), 'muxp_qr_max_width_setting_html', 'muxp_settings', 'muxp_gdpr');
 }
 
 add_action( 'init', 'muxp_load_textdomain' );
@@ -348,6 +350,16 @@ function muxp_payment_request_text_setting_html() {
             <?php esc_html_e("This text will be displayed below the QR code.", 'SEPA-QR-for-Woocommerce') ?>
         </p>
     <?php
+}
+
+function muxp_qr_max_width_setting_html() {
+	$qr_max_width = get_option('muxp_qr_max_width', '200');
+?>
+		<input type="number" name="muxp_qr_max_width" value="<?php echo esc_attr($qr_max_width); ?>" />
+		<p class="description">
+			<?php esc_html_e("This will set the maximum width of the QR code in pixels. Default is 200.", 'SEPA-QR-for-Woocommerce') ?>
+		</p>
+	<?php
 }
 
 register_activation_hook(__FILE__, 'muxp_activate');
