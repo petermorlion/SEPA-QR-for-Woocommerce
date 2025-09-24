@@ -64,7 +64,7 @@ function muxp_add_text_to_thankyoupage($order_id) {
     // do we need the user? if so: $user = $order->get_user();
 	if ( !empty($order->get_total()) && (float)$order->get_total() > 0 ) {
 		$payment_request_text = get_option('muxp_payment_request_text', __('For a convenient payment scan this qr code!', 'SEPA-QR-for-Woocommerce'));
-		echo '<p>' . esc_attr($payment_request_text) . '<br>';
+		echo '<p>' . wp_kses_post(nl2br($payment_request_text)) . '<br>';
 		echo '<img class="muxp-bacs-qrcode" src="' . esc_attr(muxp_get_qrcode($order->get_total(), $order->get_order_number())) . '" alt="qr-code" style="max-width: ' . esc_attr(get_option('muxp_qr_max_width', '200')) . 'px;"></p>';
 	} 
 }
@@ -99,9 +99,13 @@ function muxp_email_after_order_table( $order, $sent_to_admin, $plain_text, $ema
 			<?php
 			$payment_request_text = get_option('muxp_payment_request_email_text', __('For a convenient payment scan this qr code!', 'SEPA-QR-for-Woocommerce'));
 			if ($store_qr_code_as_image !== 'on') {
-				echo esc_attr($payment_request_text . ' ' . __('Some email clients unfortunately will not show Base64 encoded images.', 'SEPA-QR-for-Woocommerce'));
+				echo wp_kses_post(nl2br($payment_request_text));
+				?>
+				<br />
+				<?php _e('Some email clients unfortunately will not show Base64 encoded images.', 'SEPA-QR-for-Woocommerce') ?>
+				<?php
 			} else {
-				echo esc_attr($payment_request_text);
+				echo wp_kses_post($payment_request_text);
 			}
 			
 			?>
