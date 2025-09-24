@@ -13,7 +13,7 @@
  * Plugin Name:       SEPA-QR-Code for Woocommerce
  * Plugin URI:        https://github.com/petermorlion/SEPA-QR-for-Woocommerce
  * Description:       Free plugin that adds a SEPA-QR Code for bank transfer payments (bacs) in the WooCommerce emails and order confirmation screen.
- * Version:           2.2.0
+ * Version:           2.3.0
  * Author:            Peter Morlion
  * Requires at least: 5.0
  * Requires PHP:	  7.0
