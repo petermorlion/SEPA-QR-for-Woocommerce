@@ -79,3 +79,18 @@ msgstr ""
 
 msgid "This will set the maximum width of the QR code in pixels. Default is 200."
 msgstr ""
+
+msgid "This text will be displayed above the QR code on the Thank You page."
+msgstr ""
+
+msgid "This text will be displayed above the QR code in the order confirmation mail."
+msgstr ""
+
+msgid "Payment request text in email"
+msgstr ""
+
+msgid "Payment request text on confirmation page"
+msgstr ""
+
+msgid "Layout"
+msgstr ""

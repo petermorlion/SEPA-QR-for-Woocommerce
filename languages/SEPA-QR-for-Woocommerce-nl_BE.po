@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SEPA-QR-Code for Woocommerce\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-24 09:35+0000\n"
-"PO-Revision-Date: 2025-09-22 19:59+0200\n"
+"PO-Revision-Date: 2025-09-24 13:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -74,3 +74,18 @@ msgstr "Maximum breedte van de QR code (in pixels)"
 
 msgid "This will set the maximum width of the QR code in pixels. Default is 200."
 msgstr "Dit stelt de maximum breedte van de QR code in pixels in. De standaard waarde is 200."
+
+msgid "This text will be displayed above the QR code on the Thank You page."
+msgstr "Deze tekst komt boven de QR code op de bedankingspagina."
+
+msgid "This text will be displayed above the QR code in the order confirmation mail."
+msgstr "Deze tekst komt boven de QR code in de bevestigingsmail."
+
+msgid "Payment request text in email"
+msgstr "Betalingsverzoek tekst in email"
+
+msgid "Payment request text on confirmation page"
+msgstr "Betalingsverzoek tekst op bevestigingspagina"
+
+msgid "Layout"
+msgstr "Layout"

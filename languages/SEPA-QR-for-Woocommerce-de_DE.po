@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - SEPA QR-Code for Woocommerce - Stable (latest release)\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-09-22 19:59+0200\n"
+"PO-Revision-Date: 2025-09-24 13:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -84,3 +84,18 @@ msgstr "Maximale Breite des QR-Codes (in Pixeln)"
 
 msgid "This will set the maximum width of the QR code in pixels. Default is 200."
 msgstr "Hiermit wird die maximale Breite des QR-Codes in Pixeln festgelegt. Der Standardwert ist 200."
+
+msgid "This text will be displayed above the QR code on the Thank You page."
+msgstr "Dieser Text wird über dem QR-Code auf der Danke-Seite angezeigt."
+
+msgid "This text will be displayed above the QR code in the order confirmation mail."
+msgstr "Dieser Text wird über dem QR-Code in der Bestellbestätigungsmail angezeigt."
+
+msgid "Payment request text in email"
+msgstr "Zahlungsaufforderungstext in der E-Mail"
+
+msgid "Payment request text on confirmation page"
+msgstr "Zahlungsanforderungstext auf der Bestätigungsseite"
+
+msgid "Layout"
+msgstr "Layout"
